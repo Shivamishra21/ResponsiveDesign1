@@ -1,7 +1,9 @@
 
 main {
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
 }
 
 
@@ -9,11 +11,13 @@ html, body {
 background-color: #ffffff;
 }
 body {
-margin: 0;
+margin: auto;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 13px;
 font-weight: normal;
 color: #404040;
+text-align: center;
+flex: auto;
 }
 
 h1 {
@@ -31,7 +35,10 @@ text-transform: uppercase;
 .column {
     width:30%;
     display: inline-block;
-float:left;
-background-color:blue;
+    float:left;
+    background-color:blue;
 
-}}
+}
+main{
+    text-align: center;
+    }}
